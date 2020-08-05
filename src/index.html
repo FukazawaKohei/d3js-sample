@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>KeywordTreeNetwork</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!-- ライブラリ -->
+  <script type="text/javascript" src="js/lib/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/lib/vue.min.js"></script>
+  <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/lib/d3.min.js"></script>
+  <script type="text/javascript" src="js/lib/svg-z-order.js"></script>
+
+  <!-- データ通信テストmockjax -->
+  <script type="text/javascript" src="js/test/jquery.mockjax.min.js"></script>
+  <script type="text/javascript" src="js/test/api_test.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="menu-box">
+      <div class="menu-header" v-on:mousedown="dragStart" v-on:mousemove="mouseMove" v-on:mouseup="dragEnd">メニュー<i class="fas fa-expand-arrows-alt"></i></div>
+      <div class="menu-content">
+        <div class="menu-row">
+          <div class="col-md-8">ワード表示数</div>
+          <div class="col-md-4 padding_0">
+            <select v-model="selectShowNum">
+              <option :value="num.value" v-for="num in showNumList">{{num.label}}</option>
+            </select>
+          </div>
+        </div>
+        <label class="menu-row" v-for="(group, index) in groupList">
+          <div class="col-md-8" :style="'background-color:' + group.color">{{ group.com }}</div><div class="col-md-4 padding_0 text-align_center"><input type="checkbox" :value="group.com" v-model="selectGroups[index].isShow"></div>
+        </label>
+      </div>
+    </div>
+    <div class="container">
+      <div class="network-graph"></div>
+    </div>
+  </div>
+</body>
+</html>
+
+<script type="module">
+import networkGraph from './js/main/networkgraph.js';
+
+$(function() {
+  new Vue({
+    el: "#app",
+    data: {
+      graph: new networkGraph(),
+      data: null,
+      selectShowNum: "all",
+      selectGroups: [],
+      isMenuMoving: false,    // メニューが移動中か
+      clickPos: null,         // クリック位置
+      clickStartPos: null,    // クリック開始位置
+    },
+    created: async function () {
+
+      // データを取得
+      let res = await $.ajax({
+        url: "/api/getKeywords",
+        type: 'POST',
+      });
+      this.data = res.data;
+
+      // ネットワークグラフの描画
+      this.graph.setTarget($('.network-graph').get(0));
+      this.graph.setData(this.data);
+
+      this.selectGroups = this.groupList.map(group => {
+        return  {
+          ...group,
+          isShow: true
+        }
+      });
+      this.graph.createGraph({
+        max: this.selectShowNum,
+        group: this.selectGroups,
+      });
+    },
+    watch: {
+      selectShowNum: function () {
+        this.graph.setOptions({ max: this.selectShowNum });
+      },
+      selectGroups: {
+        handler: function () {
+          this.graph.setOptions({ group: this.selectGroups });
+        },
+        deep: true,
+      },
+    },
+    methods: {
+
+      // ----
+      // ここから下はメニュー移動処理
+      // ----
+      dragStart: function (e) {
+        if (this.isMenuMoving) return;
+        this.isMenuMoving = true;
+
+        this.clickPos = { x: e.screenX, y: e.screenY };
+        this.clickStartPos = $(".menu-box").position();
+      },
+      mouseMove: function (e) {
+        if (this.isMenuMoving === false || !this.clickStartPos || !this.clickPos) return;
+
+        $(".menu-box").css("left", (this.clickStartPos.left + e.screenX - this.clickPos.x) + "px");
+        $(".menu-box").css("top" , (this.clickStartPos.top  + e.screenY - this.clickPos.y) + "px");
+      },
+      dragEnd: function () {
+        if (this.isMenuMoving === false) return;
+        this.isMenuMoving = false;
+      },
+    },
+    computed: {
+      groupList: function () {
+        if (!this.data || !this.data.nodes) return [];
+
+        const colors = this.graph.colors;
+        return this.data.nodes.map(node => node.com).filter((node, i, self) => self.indexOf(node) === i).sort().map((com, index) => {
+          return {
+            com: com,
+            color: colors[index],
+          }
+        });
+      },
+      showNumList: function () {
+        return [{
+            label: "20",
+            value: "20",
+          },
+          {
+            label: "50",
+            value: "50",
+          },
+          {
+            label: "すべて",
+            value: "all",
+          },
+        ];
+      },
+    },
+  });
+});
+
+</script>

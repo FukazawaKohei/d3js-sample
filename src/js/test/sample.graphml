@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_lab" for="node" attr.name="lab" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="v_com" for="node" attr.name="com" attr.type="string"/>
+  <key id="v_frequency" for="node" attr.name="frequency" attr.type="double"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="double"/>
+  <key id="v_y" for="node" attr.name="y" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_line" for="edge" attr.name="line" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">1</data>
+      <data key="v_lab">料金</data>
+      <data key="v_size">8.66025403784439</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">75</data>
+      <data key="v_x">36.726750673507</data>
+      <data key="v_y">51.9822936986437</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">2</data>
+      <data key="v_lab">月額</data>
+      <data key="v_size">7.41619848709566</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">55</data>
+      <data key="v_x">42.6692521847229</data>
+      <data key="v_y">46.6183469364749</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">3</data>
+      <data key="v_lab">キャンペーン</data>
+      <data key="v_size">7.14142842854285</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">51</data>
+      <data key="v_x">28.679726678663</data>
+      <data key="v_y">41.619138953559</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">4</data>
+      <data key="v_lab">サイト</data>
+      <data key="v_size">5.8309518948453</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">34</data>
+      <data key="v_x">15.8679882344887</data>
+      <data key="v_y">34.4235289125303</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">7</data>
+      <data key="v_lab">実質</data>
+      <data key="v_size">4</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">16</data>
+      <data key="v_x">54.053327219194</data>
+      <data key="v_y">37.8222695906437</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">6</data>
+      <data key="v_lab">機種</data>
+      <data key="v_size">4</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">16</data>
+      <data key="v_x">66.6692947672078</data>
+      <data key="v_y">13.3915001197641</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">8</data>
+      <data key="v_lab">端末</data>
+      <data key="v_size">4</data>
+      <data key="v_com">07   </data>
+      <data key="v_frequency">16</data>
+      <data key="v_x">75.3336796831818</data>
+      <data key="v_y">33.2494661947159</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">9</data>
+      <data key="v_lab">総額</data>
+      <data key="v_size">3.87298334620742</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">15</data>
+      <data key="v_x">48.8586748643489</data>
+      <data key="v_y">26.9932870350683</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">10</data>
+      <data key="v_lab">業界</data>
+      <data key="v_size">3.74165738677394</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">14</data>
+      <data key="v_x">8.84584837247826</data>
+      <data key="v_y">24.0032345299102</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">5</data>
+      <data key="v_lab">プラン</data>
+      <data key="v_size">5.47722557505166</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">30</data>
+      <data key="v_x">97.9242383478455</data>
+      <data key="v_y">50.2043789910732</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">11</data>
+      <data key="v_lab">ギガ</data>
+      <data key="v_size">3.60555127546399</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">13</data>
+      <data key="v_x">99.3744877860331</data>
+      <data key="v_y">43.1029000797654</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">14</data>
+      <data key="v_lab">BroadWiMAX</data>
+      <data key="v_size">3.16227766016838</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">10</data>
+      <data key="v_x">20.8065699864736</data>
+      <data key="v_y">28.3507862532268</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">19</data>
+      <data key="v_lab">最速</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">67.6762759779626</data>
+      <data key="v_y">4.00104411955268</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">17</data>
+      <data key="v_lab">最新</data>
+      <data key="v_size">3</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">9</data>
+      <data key="v_x">43.6893304036623</data>
+      <data key="v_y">99.9577203451033</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">20</data>
+      <data key="v_lab">情報</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">39.9805895616936</data>
+      <data key="v_y">92.1487200355305</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">23</data>
+      <data key="v_lab">選び</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">51.1401474418733</data>
+      <data key="v_y">88.4581254477556</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">24</data>
+      <data key="v_lab">速度</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">77.2350164669919</data>
+      <data key="v_y">14.8232022602264</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">21</data>
+      <data key="v_lab">容量</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">89.5708340457381</data>
+      <data key="v_y">24.7406699795038</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">16</data>
+      <data key="v_lab">内容</data>
+      <data key="v_size">3.16227766016838</data>
+      <data key="v_com">05   </data>
+      <data key="v_frequency">10</data>
+      <data key="v_x">97.9578779820116</data>
+      <data key="v_y">68.0680304249392</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">25</data>
+      <data key="v_lab">特典</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">05   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">94.7488891926328</data>
+      <data key="v_y">75.5103436247004</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">28</data>
+      <data key="v_lab">初期</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">39.6067953800392</data>
+      <data key="v_y">15.7989375374541</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">26</data>
+      <data key="v_lab">ランキング</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">79.4085629559179</data>
+      <data key="v_y">73.8132500435977</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">29</data>
+      <data key="v_lab">上記</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">70.0102171495036</data>
+      <data key="v_y">70.0217597535111</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">30</data>
+      <data key="v_lab">費用</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">35.214953257056</data>
+      <data key="v_y">19.4889101038277</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">31</data>
+      <data key="v_lab">データ</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">97.6885231193047</data>
+      <data key="v_y">31.6016832747062</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">32</data>
+      <data key="v_lab">ページ</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">31.8474936433781</data>
+      <data key="v_y">7.87031309173461</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">33</data>
+      <data key="v_lab">医方</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">33.6996395432616</data>
+      <data key="v_y">98.5214833172282</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">13</data>
+      <data key="v_lab">理由</data>
+      <data key="v_size">3.3166247903554</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">11</data>
+      <data key="v_x">0</data>
+      <data key="v_y">46.5100032283042</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">34</data>
+      <data key="v_lab">下記</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">0.0929698634776958</data>
+      <data key="v_y">54.7719239250352</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">12</data>
+      <data key="v_lab">受け取り</data>
+      <data key="v_size">3.46410161513775</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">12</data>
+      <data key="v_x">6.54752436716934</data>
+      <data key="v_y">69.940810742323</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">35</data>
+      <data key="v_lab">口コミ</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">14.5025151503565</data>
+      <data key="v_y">85.0240678121739</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">37</data>
+      <data key="v_lab">申し込み</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">28.2395212615699</data>
+      <data key="v_y">15.3398081652291</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">38</data>
+      <data key="v_lab">半数</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">15.3392372983152</data>
+      <data key="v_y">73.2421469480351</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">39</data>
+      <data key="v_lab">無料</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">07   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">86.8925103934046</data>
+      <data key="v_y">44.1472382858732</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">40</data>
+      <data key="v_lab">比較</data>
+      <data key="v_size">8.66025403784439</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">75</data>
+      <data key="v_x">39.7890217201051</data>
+      <data key="v_y">63.3905283319199</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">42</data>
+      <data key="v_lab">契約</data>
+      <data key="v_size">5.47722557505166</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">30</data>
+      <data key="v_x">62.9460435844811</data>
+      <data key="v_y">47.1311728806848</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">43</data>
+      <data key="v_lab">限定</data>
+      <data key="v_size">4.35889894354067</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">19</data>
+      <data key="v_x">16.9001152493069</data>
+      <data key="v_y">24.6478190182362</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">44</data>
+      <data key="v_lab">割引</data>
+      <data key="v_size">4.24264068711928</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">18</data>
+      <data key="v_x">34.9014561908509</data>
+      <data key="v_y">35.1812615813364</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">45</data>
+      <data key="v_lab">安心</data>
+      <data key="v_size">3</data>
+      <data key="v_com">05   </data>
+      <data key="v_frequency">9</data>
+      <data key="v_x">90.428650626592</data>
+      <data key="v_y">83.1778751102031</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">46</data>
+      <data key="v_lab">平均</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">60.5995806963804</data>
+      <data key="v_y">60.3251750376858</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">22</data>
+      <data key="v_lab">ポイント</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">84.703551348764</data>
+      <data key="v_y">56.644815541437</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">47</data>
+      <data key="v_lab">紹介</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">79.8284638468872</data>
+      <data key="v_y">64.0269584555149</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">48</data>
+      <data key="v_lab">通信</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">83.7481075945895</data>
+      <data key="v_y">17.8689359420802</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">50</data>
+      <data key="v_lab">総合</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">76.3632817470063</data>
+      <data key="v_y">81.9988943063772</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">51</data>
+      <data key="v_lab">サポート</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">44.2018934884966</data>
+      <data key="v_y">84.1256201211889</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">52</data>
+      <data key="v_lab">高額</data>
+      <data key="v_size">3.46410161513775</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">12</data>
+      <data key="v_x">18.3273646978243</data>
+      <data key="v_y">62.6103505278963</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">53</data>
+      <data key="v_lab">重要</data>
+      <data key="v_size">3.3166247903554</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">11</data>
+      <data key="v_x">75.6214454133637</data>
+      <data key="v_y">50.9533917962664</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">55</data>
+      <data key="v_lab">可能</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">07   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">85.7430368503394</data>
+      <data key="v_y">35.3850573082154</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">56</data>
+      <data key="v_lab">WiMAX</data>
+      <data key="v_size">11.5325625946708</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">133</data>
+      <data key="v_x">50.5207135071946</data>
+      <data key="v_y">60.5716244116331</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">41</data>
+      <data key="v_lab">おすすめ</data>
+      <data key="v_size">6.32455532033676</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">40</data>
+      <data key="v_x">50.5074489980978</data>
+      <data key="v_y">71.0905194013549</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">57</data>
+      <data key="v_lab">プロバイダ</data>
+      <data key="v_size">9.53939201416946</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">91</data>
+      <data key="v_x">40.1237834765141</data>
+      <data key="v_y">57.3342813194977</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">58</data>
+      <data key="v_lab">キャッシュバック</data>
+      <data key="v_size">6.70820393249937</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">45</data>
+      <data key="v_x">19.9789494710179</data>
+      <data key="v_y">54.5507382213835</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">60</data>
+      <data key="v_lab">7月</data>
+      <data key="v_size">3.60555127546399</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">13</data>
+      <data key="v_x">54.787926862331</data>
+      <data key="v_y">99.9626049129673</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">61</data>
+      <data key="v_lab">最安値</data>
+      <data key="v_size">3.16227766016838</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">10</data>
+      <data key="v_x">6.44473191913121</data>
+      <data key="v_y">32.4892872526722</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">63</data>
+      <data key="v_lab">モバイルルーター</data>
+      <data key="v_size">3</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">9</data>
+      <data key="v_x">61.7604808993452</data>
+      <data key="v_y">7.3482405837232</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">64</data>
+      <data key="v_lab">2020年</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">62.9723450103499</data>
+      <data key="v_y">100</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">65</data>
+      <data key="v_lab">3年</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">100</data>
+      <data key="v_y">59.3827744339827</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">66</data>
+      <data key="v_lab">Amazonギフト券</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">22.443694578003</data>
+      <data key="v_y">12.0589630705407</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">70</data>
+      <data key="v_lab">500円</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">7.38280533751706</data>
+      <data key="v_y">78.7564559267095</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">74</data>
+      <data key="v_lab">A</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">49.5024568144441</data>
+      <data key="v_y">0</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">77</data>
+      <data key="v_lab">違い</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">90.9191461332775</data>
+      <data key="v_y">14.9058241653498</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">79</data>
+      <data key="v_lab">受け取れる</data>
+      <data key="v_size">4.24264068711928</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">18</data>
+      <data key="v_x">24.6187370453338</data>
+      <data key="v_y">68.6984009365387</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">78</data>
+      <data key="v_lab">場合</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">27.6118792356432</data>
+      <data key="v_y">79.934215138576</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">80</data>
+      <data key="v_lab">使う</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">80.9712648017906</data>
+      <data key="v_y">6.7269521272896</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">81</data>
+      <data key="v_lab">受け取る</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">7.6247713088573</data>
+      <data key="v_y">39.479116447702</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">82</data>
+      <data key="v_lab">見る</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">06   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">28.0026534071825</data>
+      <data key="v_y">93.1028113449361</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">84</data>
+      <data key="v_lab">行う</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">05   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">84.2473179236349</data>
+      <data key="v_y">90.6614205666613</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">86</data>
+      <data key="v_lab">安い</data>
+      <data key="v_size">2.82842712474619</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">8</data>
+      <data key="v_x">59.9828894449781</data>
+      <data key="v_y">23.4357293584097</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">87</data>
+      <data key="v_lab">最も</data>
+      <data key="v_size">3.74165738677394</data>
+      <data key="v_com">02   </data>
+      <data key="v_frequency">14</data>
+      <data key="v_x">65.7256097089494</data>
+      <data key="v_y">34.8690350460933</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">88</data>
+      <data key="v_lab">得</data>
+      <data key="v_size">4.69041575982343</data>
+      <data key="v_com">08   </data>
+      <data key="v_frequency">22</data>
+      <data key="v_x">45.4795247784601</data>
+      <data key="v_y">38.5617701135137</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">89</data>
+      <data key="v_lab">W</data>
+      <data key="v_size">3</data>
+      <data key="v_com">01   </data>
+      <data key="v_frequency">9</data>
+      <data key="v_x">61.9314992726648</data>
+      <data key="v_y">12.2123972365291</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">90</data>
+      <data key="v_lab">安</data>
+      <data key="v_size">3</data>
+      <data key="v_com">03   </data>
+      <data key="v_frequency">9</data>
+      <data key="v_x">22.2252960361833</data>
+      <data key="v_y">22.0532216589939</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">91</data>
+      <data key="v_lab">他</data>
+      <data key="v_size">2.64575131106459</data>
+      <data key="v_com">04   </data>
+      <data key="v_frequency">7</data>
+      <data key="v_x">9.27302026296133</data>
+      <data key="v_y">57.8198557498777</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">27</data>
+      <data key="v_lab">金額</data>
+      <data key="v_size">2.44948974278318</data>
+      <data key="v_com">09   </data>
+      <data key="v_frequency">6</data>
+      <data key="v_x">72.5011028094078</data>
+      <data key="v_y">94.5682221699236</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">92</data>
+      <data key="v_lab">月</data>
+      <data key="v_size">2.23606797749979</data>
+      <data key="v_com">09   </data>
+      <data key="v_frequency">5</data>
+      <data key="v_x">65.8874671875273</data>
+      <data key="v_y">88.1006288888048</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">0.536231884057971</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_weight">0.202247191011236</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">0.186666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_weight">0.193548387096774</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_weight">0.260869565217391</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_weight">0.173913043478261</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_weight">0.208333333333333</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n3" target="n8">
+      <data key="e_weight">0.235294117647059</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_weight">0.375</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_weight">0.170212765957447</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n3" target="n11">
+      <data key="e_weight">0.21875</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="e_weight">0.5</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_weight">0.222222222222222</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_weight">0.285714285714286</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_weight">0.3</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n7" target="n23">
+      <data key="e_weight">0.1875</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="e_weight">0.571428571428571</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n10" target="n24">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n17" target="n24">
+      <data key="e_weight">0.428571428571429</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n20" target="n25">
+      <data key="e_weight">0.222222222222222</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n23" target="n25">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n13" target="n26">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n14" target="n26">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n29" target="n30">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n31">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n20" target="n31">
+      <data key="e_weight">0.222222222222222</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n23" target="n31">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n25" target="n31">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n29" target="n32">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n34">
+      <data key="e_weight">0.28125</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n34">
+      <data key="e_weight">0.193181818181818</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n6" target="n35">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n2" target="n36">
+      <data key="e_weight">0.22</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n3" target="n36">
+      <data key="e_weight">0.363636363636364</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n8" target="n36">
+      <data key="e_weight">0.260869565217391</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n36">
+      <data key="e_weight">0.368421052631579</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n31" target="n36">
+      <data key="e_weight">0.235294117647059</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n37">
+      <data key="e_weight">0.184615384615385</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n37">
+      <data key="e_weight">0.340909090909091</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n37">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n20" target="n37">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n23" target="n37">
+      <data key="e_weight">0.176470588235294</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n19" target="n38">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n39">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n22" target="n39">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n40" target="n41">
+      <data key="e_weight">0.272727272727273</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n21" target="n41">
+      <data key="e_weight">0.3</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n22" target="n41">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n17" target="n42">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n16" target="n42">
+      <data key="e_weight">0.4</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n21" target="n43">
+      <data key="e_weight">0.333333333333333</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n14" target="n44">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n15" target="n44">
+      <data key="e_weight">0.285714285714286</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n32" target="n45">
+      <data key="e_weight">0.214285714285714</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n40" target="n46">
+      <data key="e_weight">0.384615384615385</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n35" target="n46">
+      <data key="e_weight">0.172413793103448</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n41" target="n46">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n6" target="n47">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n48">
+      <data key="e_weight">0.18978102189781</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n34" target="n48">
+      <data key="e_weight">0.296</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n48" target="n49">
+      <data key="e_weight">0.296296296296296</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n35" target="n48">
+      <data key="e_weight">0.203883495145631</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n50">
+      <data key="e_weight">0.295238095238095</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n50">
+      <data key="e_weight">0.18</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n50">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n34" target="n50">
+      <data key="e_weight">0.391752577319588</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n49" target="n50">
+      <data key="e_weight">0.21505376344086</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n48" target="n50">
+      <data key="e_weight">0.4</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n0" target="n51">
+      <data key="e_weight">0.174418604651163</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n1" target="n51">
+      <data key="e_weight">0.220588235294118</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n51">
+      <data key="e_weight">0.235294117647059</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n37" target="n51">
+      <data key="e_weight">0.173913043478261</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n45" target="n51">
+      <data key="e_weight">0.275</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n13" target="n52">
+      <data key="e_weight">0.222222222222222</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n8" target="n53">
+      <data key="e_weight">0.352941176470588</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n53">
+      <data key="e_weight">0.176470588235294</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n36" target="n53">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n5" target="n54">
+      <data key="e_weight">0.583333333333333</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n12" target="n54">
+      <data key="e_weight">0.363636363636364</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n52" target="n55">
+      <data key="e_weight">0.4</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n9" target="n56">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n57">
+      <data key="e_weight">0.416666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n20" target="n57">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n23" target="n57">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n25" target="n57">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n31" target="n57">
+      <data key="e_weight">0.333333333333333</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n36" target="n57">
+      <data key="e_weight">0.277777777777778</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n29" target="n58">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n32" target="n58">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n54" target="n59">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n16" target="n60">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n42" target="n60">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n32" target="n61">
+      <data key="e_weight">0.235294117647059</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n45" target="n61">
+      <data key="e_weight">0.272727272727273</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n51" target="n61">
+      <data key="e_weight">0.30952380952381</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n61" target="n62">
+      <data key="e_weight">0.263157894736842</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n16" target="n63">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n42" target="n63">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n3" target="n64">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n8" target="n64">
+      <data key="e_weight">0.1875</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n27" target="n64">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n64">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n53" target="n64">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n14" target="n65">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n26" target="n65">
+      <data key="e_weight">0.375</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n38" target="n66">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n7" target="n67">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n7" target="n68">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n46" target="n68">
+      <data key="e_weight">0.19047619047619</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n67" target="n68">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n2" target="n69">
+      <data key="e_weight">0.178571428571429</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n35" target="n69">
+      <data key="e_weight">0.189189189189189</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n37" target="n69">
+      <data key="e_weight">0.241379310344828</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n5" target="n70">
+      <data key="e_weight">0.545454545454545</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n12" target="n70">
+      <data key="e_weight">0.857142857142857</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n16" target="n70">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n54" target="n70">
+      <data key="e_weight">0.4</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n3" target="n71">
+      <data key="e_weight">0.1875</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n8" target="n71">
+      <data key="e_weight">0.294117647058823</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n11" target="n71">
+      <data key="e_weight">0.461538461538462</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n23" target="n71">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n25" target="n71">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n31" target="n71">
+      <data key="e_weight">0.166666666666667</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n36" target="n71">
+      <data key="e_weight">0.388888888888889</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n37" target="n71">
+      <data key="e_weight">0.2</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n53" target="n71">
+      <data key="e_weight">0.1875</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n57" target="n71">
+      <data key="e_weight">0.333333333333333</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n29" target="n72">
+      <data key="e_weight">0.230769230769231</data>
+      <data key="e_line">solid</data>
+    </edge>
+    <edge source="n64" target="n72">
+      <data key="e_weight">0.181818181818182</data>
+      <data key="e_line">dotted</data>
+    </edge>
+    <edge source="n73" target="n74">
+      <data key="e_weight">0.25</data>
+      <data key="e_line">solid</data>
+    </edge>
+  </graph>
+</graphml>
